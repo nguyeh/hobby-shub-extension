@@ -1,0 +1,27 @@
+{
+  "description": "Nui Shub Hack: Hack thời gian làm bài trên Shub. Source code backend: https://glitch.com/~five-grape-palm",
+  "manifest_version": 2,
+  "name": "nui-app",
+  "version": "1.0.0",
+  "homepage_url": "https://glitch.com/~five-grape-palm",
+  "icons": {
+    "48": "icons/7eef3b6d-nuiblog-logo-192.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icons/7eef3b6d-nuiblog-logo-192.png",
+    "default_title": "Nui Shub Hack"
+  }
+}
